@@ -1,0 +1,105 @@
+---
+# Only the main Sass file needs front matter (the dashes are enough)
+---
+@charset "utf-8";
+
+
+
+// Import partials from `sass_dir` (defaults to `_sass`)
+@import
+        "bootstrap",
+        "bootstrap-theme",
+        "layout",
+        "fontawesome"
+;
+
+
+body{
+    font-family: 'Raleway';
+}
+
+h1{
+    color:#2CB763;
+}
+
+.positionTitle{
+    color:#000;
+}
+
+.fb-profile img.fb-image-lg {
+    z-index: 0;
+    width: 100%;
+    margin-bottom: 10px;
+}
+
+.fb-image-profile {
+    margin: -90px 10px 0px 50px;
+    z-index: 9;
+    width: 20%;
+}
+
+@media (max-width:768px) {
+    .fb-profile-text>h1 {
+        font-weight: 700;
+        font-size: 16px;
+    }
+    .fb-image-profile {
+        margin: -45px 10px 0px 25px;
+        z-index: 9;
+        width: 20%;
+    }
+}
+
+
+/* Gallery settings */
+
+.responsive {
+    padding: 0 6px;
+    float: left;
+    width: 24.99999%;
+}
+
+div.img {
+    border: 1px solid #ccc;
+}
+
+div.img:hover {
+    border: 1px solid #777;
+}
+
+div.img img {
+    width: 100%;
+    height: auto;
+}
+
+div.desc {
+    padding: 15px;
+    text-align: center;
+}
+
+
+
+#Container .mix{
+    display: none;
+}
+
+.progress {
+    position: relative;
+    height: 25px;
+}
+
+.progress > .progress-type {
+    position: absolute;
+    left: 0px;
+    font-weight: 800;
+    padding: 3px 30px 2px 10px;
+    color: rgb(255, 255, 255);
+    background-color: rgba(25, 25, 25, 0.2);
+}
+
+.progress > .progress-completed {
+    position: absolute;
+    right: 0px;
+    font-weight: 800;
+    padding: 3px 10px 2px;
+}

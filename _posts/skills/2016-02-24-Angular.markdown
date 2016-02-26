@@ -1,0 +1,8 @@
+---
+layout: post
+title:  "Angular JS"
+rate: 65
+categories: jekyll update
+date:   2016-02-18 21:10:22 +0800
+category: skills
+---
