@@ -17,11 +17,14 @@ $(function(){
        $('#slides').slidesjs({
         width: 940,
         height: 528,
-        navigation: false
+        navigation: false,
+        preload: true,
+        slideEasing: "easeOutQuad",
+        fadeSpeed: 350,
+        preloadImage: '/images/loader.gif'
     });
     
     $("#Container").preloader();
-    $(".slidesjs-control a").preloader();
     
 });
 
