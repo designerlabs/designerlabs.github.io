@@ -401,7 +401,10 @@ header {
       color: #9e2020
     }
 
-
+.preloader { 
+   background:url(/images/loader.gif) center center no-repeat #ffffff; 
+   display:inline-block;  
+}
    /* For tablets & smart phones */
     @media (max-width: 767px) {
       body {

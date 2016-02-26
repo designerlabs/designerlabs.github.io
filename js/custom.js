@@ -20,5 +20,8 @@ $(function(){
         navigation: false
     });
     
+    $("#Container").preloader();
+    $(".slidesjs-control a").preloader();
+    
 });
 
