@@ -83,7 +83,7 @@ nav a:last-child {
 
 a.main-post-title {
     font-size:$main-titles-size;
-    padding: $main-padding $main-padding 0 $main-padding;
+    padding: 5px 5px 0 5px;
     display:block;
     line-height: $main-titles-leading;
 }
@@ -275,7 +275,7 @@ header {
 @media only screen and (max-width: 40em) {
     
     h1.post-title{
-        font-size:17px;
+        font-size:25px;
     }
     
     .fb-profile-text > h1{
@@ -327,7 +327,7 @@ header {
         clear:both;
         width:100%;
         text-align:right;
-        margin-top:-45px;
+        margin-top:26px;
     }
 
     .trigger a {
@@ -342,7 +342,7 @@ header {
     .fb-image-profile {
         margin: -90px 10px 0px 50px;
         z-index: 9;
-        width: 50% !important;
+        width: 25%;
     }
     
 
@@ -418,18 +418,36 @@ header {
       .container {
         width: auto
       }
+        .fb-image-profile {
+        margin: -90px 10px 0px 50px;
+        z-index: 9;
+        width: 35% !important;
+    }
     }
     /* For smartphones */
     @media (max-width: 480px) {
       .container {
         width: auto
       }
+        
+     .fb-image-profile {
+        margin: -90px 10px 0px 50px;
+        z-index: 9;
+        width: 35% !important;
+    }
     }
     /* For smaller displays like laptops */
     @media (min-width: 768px) and (max-width: 979px) {
       .container {
         width: 724px
       }
+    
+    .fb-image-profile {
+        margin: -90px 10px 0px 50px;
+        z-index: 9;
+        width: 35% !important;
+    }
+        
     }
     /* For larger displays */
     @media (min-width: 1200px) {
