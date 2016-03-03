@@ -156,7 +156,7 @@ div.img {
 
 footer {
     background-color:$footer-color;
-    min-height:160px;
+    /* min-height:160px; */
 }
 
 ul#social-links {
@@ -173,6 +173,10 @@ ul#social-links li {
 
 .pagination {
     text-align:center;
+}
+
+h1 span{
+    color:#000;
 }
 
 a.previous, a.next {
