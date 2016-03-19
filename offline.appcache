@@ -1,9 +1,9 @@
 CACHE MANIFEST
-# 2016-03-19 v1.0.2
+# 2016-03-19 v1.0.3
 /css/main.css
 
 NETWORK:
 *
 
 FALLBACK:
-/html/ offline.html
+/offline.html
