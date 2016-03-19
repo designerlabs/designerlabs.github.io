@@ -20,3 +20,4 @@ github_username:  designerlabs@hotmail.com
 # Build settings
 markdown: kramdown
 exclude: [node_modules, gulpfile.js]
+mime_type: text/cache-manifest
